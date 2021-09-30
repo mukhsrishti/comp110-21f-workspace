@@ -19,12 +19,12 @@ def is_equal(first: list[int], second: list[int]):
 
 
 def max(i: list[int]):
-    largest_number = 0
+    largest_number = -1000
     starting_point = 0
     length_of_list = len(i)
     if length_of_list == 0:
         raise ValueError("max() arg is an empty List")
-    while starting_point < length_of_list -1:
+    while starting_point < length_of_list - 1:
         if i[starting_point] > largest_number:
             largest_number = i[starting_point]
         starting_point += 1
