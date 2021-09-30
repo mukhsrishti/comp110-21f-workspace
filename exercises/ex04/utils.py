@@ -25,7 +25,7 @@ def max(i: list[int]):
     if length_of_list == 0:
         raise ValueError("max() arg is an empty List")
     
-    while starting_point < length_of_list - 1:
+    while starting_point < length_of_list:
         if i[starting_point] > largest_number:
             largest_number = i[starting_point]
         starting_point += 1
