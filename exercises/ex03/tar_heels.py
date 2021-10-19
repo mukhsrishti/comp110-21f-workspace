@@ -12,4 +12,7 @@ elif (num % 7 == 0):
         print ("HEELS")
 else:
         print ("CAROLINA")
+<<<<<<< HEAD
 
+=======
+>>>>>>> b2d01261c1c712bdab57d600ae546394cad57d4f
